@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <style>
+        .bordersize {
+            width: 506px;
+            height: 199px;
+        }
+
+        .inside-box {
+            width: 434px;
+            height: 199px;
+        }
+
+        .imgsize {
+            width: 138px;
+            height: 138px;
+            position: absolute;
+            left: 0;
+            bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" bordersize flex justify-end relative">
+        <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full">
+                <div>
+                    <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
+                </div>
+                <div class="grid grid-cols-3 ps-16">
+                    <div class="col-span-3">
+                        <h5 class="mb-6">Graphic Designing</h5>
+                    </div>
+                    <div class="col-span-3">
+                        <p class="mb-4">Strating From: </p>
+                    </div>
+                    <div class="border-r-4 border-black h-20">
+                        <p>Duration</p>
+                        <small class="px-2">14 days</small>
+                    </div>
+                    <div class="border-r-4 border-black flex flex-col items-center h-20">
+                        <p>Class Type</p>
+                        <small>online</small>
+                    </div>
+                    <div class="h-20 flex flex-col items-center">
+                        <p>Class Time</p>
+                        <small class="text-sm px-2">8:00pm-9:30pm</small>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
