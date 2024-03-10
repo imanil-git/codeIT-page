@@ -21,40 +21,53 @@
             width: 138px;
             height: 138px;
             position: absolute;
-            left: 0;
-            bottom: 30px;
+            left: 4px;
+            top: 30px;
         }
     </style>
 </head>
 
 <body>
-    <div class=" bordersize flex justify-end relative">
-        <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full">
-                <div>
-                    <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
-                </div>
-                <div class="grid grid-cols-3 ps-16">
-                    <div class="col-span-3">
-                        <h5 class="mb-6">Graphic Designing</h5>
+    <section class=" container mx-auto bg-slate-300">
+        <div class=" bordersize flex justify-end relative">
+            <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full">
+                    <div>
+                        <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
                     </div>
-                    <div class="col-span-3">
-                        <p class="mb-4">Strating From: </p>
+                    <div class="grid grid-cols-3 ps-16">
+                        <div class="col-span-3">
+                            <h5 class="mb-6">Graphic Designing</h5>
+                        </div>
+                        <div class="col-span-3">
+                            <p class="mb-4">Strating From: </p>
+                        </div>
+                        <div class="border-r-4 border-black h-20">
+                            <p>Duration</p>
+                            <small class="px-2">14 days</small>
+                        </div>
+                        <div class="border-r-4 border-black flex flex-col items-center h-20">
+                            <p>Class Type</p>
+                            <small>online</small>
+                        </div>
+                        <div class="h-20 flex flex-col items-center">
+                            <p>Class Time</p>
+                            <small class="text-sm px-2">8:00pm-9:30pm</small>
+                        </div>
                     </div>
-                    <div class="border-r-4 border-black h-20">
-                        <p>Duration</p>
-                        <small class="px-2">14 days</small>
-                    </div>
-                    <div class="border-r-4 border-black flex flex-col items-center h-20">
-                        <p>Class Type</p>
-                        <small>online</small>
-                    </div>
-                    <div class="h-20 flex flex-col items-center">
-                        <p>Class Time</p>
-                        <small class="text-sm px-2">8:00pm-9:30pm</small>
-                    </div>
-                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <div>
+        When controlling the flow of text, using the CSS property
+        <span class="inline">display: inline</span>
+        will cause the text inside the element to wrap normally.
+      
+        While using the property <span class="inline-block">display: inline-block</span>
+        will wrap the element to prevent the text inside from extending beyond its parent.
+      
+        Lastly, using the property <span class="block">display: block</span>
+        will put the element on its own line and fill its parent.
+      </div>
 </body>
 
 </html>

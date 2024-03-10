@@ -59,6 +59,7 @@
         .bordersize {
             width: 506px;
             height: 199px;
+            padding-left: 6%;
         }
 
         .inside-box {
@@ -70,15 +71,19 @@
             width: 138px;
             height: 138px;
             position: absolute;
-            left: 0;
-            bottom: 30px;
+            left: 0px;
+            top: 30px;
+        }
+        .img-area{
+            width: 370px;
+            height: 253px;
         }
     </style>
 </head>
 
 <body>
     <!-- Top Bar -->
-    <section class="bg-[#264788] ">
+    <section class="bg-[#1B3358] ">
         <div class="container mx-auto flex justify-between py-2">
             <div class="flex gap-4">
                 <div class="flex gap-2">
@@ -99,38 +104,43 @@
                     </div>
                 </div>
             </div>
-            <div class="flex items-center gap-4">
-                <a href="" title="Facebook"><i class="fa-brands fa-facebook text-white text-2xl"></i></a>
-                <a href="" title="Instagram"><i class="fa-brands fa-instagram text-white text-2xl"></i></a>
-                <a href="" title="Youtube"><i class="fa-brands fa-youtube text-white text-2xl"></i></a>
+            <div class="flex gap-5">
+                <div class="flex gap-4 items-center">
+                    <button
+                        class="border px-2 rounded-md text-white text-sm font-semibold hover:bg-[#EA6547] w-32 h-8">Student
+                        Portal</button>
+                </div>
+                <div class="border"></div>
+                <div class="flex items-center gap-4">
+                    <a href="" title="Facebook"><i class="fa-brands fa-facebook text-white text-2xl"></i></a>
+                    <a href="" title="Instagram"><i class="fa-brands fa-instagram text-white text-2xl"></i></a>
+                    <a href="" title="Youtube"><i class="fa-brands fa-youtube text-white text-2xl"></i></a>
+                </div>
             </div>
         </div>
     </section>
     <!-- Top bar end -->
 
     <!-- Navbar -->
-        <section class="bg-[#F8F8ff] drop-shadow-md sticky top-0 z-10">
-            <div class="container mx-auto flex justify-between items-center h-16 bg-[#F8F8ff] gap-24">
+        <section class="bg-[#1B3358] drop-shadow-md sticky top-0 z-10">
+            <div class="container mx-auto flex justify-between items-center h-16 bg-[#1B3358] gap-24">
                 <div class="flex gap-4">
                     <div>
-                        <img class="w-52 h-12" src="./images/codeit-logo.webp" alt="codeIT-logo.webp">
+                        <img class="w-52 h-12" src="./images/codeit-logo-removebg-preview.png" alt="codeIT-logo.webp">
                     </div>
                     <div class="flex items-center">
                         <form action="">
                             <div class="relative flex items-center text-gray-400 focus-within:text-[#264788] ">
                                 <i class="fa-solid fa-magnifying-glass absolute ml-4 pointer-events-none "></i>
                                 <input name="search" type="text" placeholder="search..."
-                                    class="w-96 h-10 pr-3 pl-10 py-2 border-none rounded-md ring-2 ring-[#637eb4] focus:ring-[#264788] focus:outline-none">
+                                    class="w-96 h-10 pr-3 pl-10 py-2 border-none rounded-md ring-2 focus:ring-[#264788] focus:outline-none">
                             </div>
                         </form>
                     </div>
                 </div>
                     <div class="flex gap-4 items-center">
                         <button
-                            class="border px-2 rounded-md text-black border-black text-sm font-semibold hover:bg-[#EA6547] hover:text-white hover:border-none w-32 h-8">Student
-                            Portal</button>
-                        <button
-                            class="border bg-[#264788] hover:bg-[#EA6547] text-white px-2 rounded-xl text-sm w-32 h-8">Admission</button>
+                            class="bg-[#EA6547] text-white px-2 rounded-xl text-sm w-32 h-8">Admission</button>
                     </div>
                 </div>
             </div>
@@ -138,17 +148,35 @@
     <!-- Navbar End -->
 
     <!-- Hero Section -->
-    <section class="relative bg-gradient-to-tl from-[#94A9D4] mb-5">
-        <div class="container mx-auto h-80 flex flex-col justify-center">
-            <div class="flex flex-col mb-10">
-                <h1 class="belgrano-regular text-2xl mb-2">Inspiring Youth Since</h1>
-                <h1 class="belgrano-regular text-4xl text-[#EA6547]">2017</h1>
-            </div>
+    <section class="bg-[#1B3358] mb-5">
+        <div class="container mx-auto h-80 flex justify-between items-center">
             <div>
-                <button class="rounded-full w-20 h-20 bg-[#264788] text-white hover:bg-[#EA6547] font-semibold adjust">Enroll <br> now</button>
-                <button
-                    class="border bg-[#F8F8FF] hover:bg-[#EA6547] hover:text-white hover:border-none px-2 rounded-md text-sm font-bold shadow-lg w-32 h-11">Learn
+                <h1 class="belgrano-regular text-2xl mb-2 text-white">Inspiring Youth Since <br> <small class="belgrano-regular text-4xl text-white">2017</small></h1>
+                <i class="fa-solid fa-quote-left text-[#EA6547] text-2xl"></i>
+                <p class="text-sm text-white mb-1">Establish your skills with experts and earn industry recognized <span class="text-lg text-[#EA6547]">certificates</span></p>
+                <span class="text-4xl text-[#EA6547]">60k+ <small class="text-base text-white">Members</small></span>
+                <div class="pt-4">
+                    <button
+                    class="border hover:bg-[#EA6547] text-white hover:border-none px-2 rounded-md text-sm font-bold shadow-lg w-44 h-8">Learn
                     more</button>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 img-area gap-1">
+                <div>
+                    <img class="object-cover rounded-md w-full h-full" src="./images/class.webp" alt="codeit-img.webp">
+                </div>
+                <div class="row-span-2">
+                    <img class="object-cover rounded-md w-full h-full" src="./images/sajal.webp" alt="codeit-img2.webp">
+                </div>
+                <div>
+                    <img class="object-cover rounded-md w-full h-full" src="./images/certification.webp" alt="codeit-img3.webp">
+                </div>
+                <div>
+                    <img class="object-cover rounded-md w-full h-full" src="./images/class1.webp" alt="codeit-img3.webp">
+                </div>
+                <div>
+                    <img class="object-cover rounded-md w-full h-full" src="./images/training.webp" alt="codeit-img3.webp">
+                </div>
             </div>
         </div>
     </section>
@@ -156,45 +184,15 @@
 
     <!-- Upcoming Classes -->
     <section class="container mx-auto mb-16">
-        <h1 class="text-3xl font-semibold mb-2">Upcoming Classes</h1>
-        <p class="mb-10">See what's coming in next updates</p>
+        <h1 class="text-3xl font-semibold mb-2 text-center">Upcoming Classes</h1>
+        <p class="mb-10 text-center font-light text-sm text-[#212529]">See what's coming in next updates, learn and earn free valued certificates</p>
 
         <!-- Upcoming class Card -->
 
         <div class="flex gap-16 overflow-scroll">
-            <div class=" bordersize flex justify-end relative">
+            <div class=" bordersize relative">
+                <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
                 <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                        <div>
-                            <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
-                        </div>
-                        <div class="grid grid-cols-3 ps-16">
-                            <div class="col-span-3">
-                                <h5 class="mb-6">Graphic Designing</h5>
-                            </div>
-                            <div class="col-span-3">
-                                <p class="mb-4">Strating From: </p>
-                            </div>
-                            <div class="border-r-4 border-black h-20">
-                                <p>Duration</p>
-                                <small class="px-2">14 days</small>
-                            </div>
-                            <div class="border-r-4 border-black flex flex-col items-center h-20">
-                                <p>Class Type</p>
-                                <small>online</small>
-                            </div>
-                            <div class="h-20 flex flex-col items-center">
-                                <p>Class Time</p>
-                                <small class="text-sm px-2">8:00pm-9:30pm</small>
-                            </div>
-                        </div>
-                </div>
-            </div>
-    
-            <div class=" bordersize flex justify-end relative">
-                <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                        <div>
-                            <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
-                        </div>
                         <div class="grid grid-cols-3 ps-16">
                             <div class="col-span-3">
                                 <h5 class="mb-6">Graphic Designing</h5>
@@ -218,11 +216,9 @@
                 </div>
             </div>
 
-            <div class=" bordersize flex justify-end relative">
+            <div class=" bordersize relative">
+                <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
                 <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                        <div>
-                            <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
-                        </div>
                         <div class="grid grid-cols-3 ps-16">
                             <div class="col-span-3">
                                 <h5 class="mb-6">Graphic Designing</h5>
@@ -246,11 +242,9 @@
                 </div>
             </div>
 
-            <div class=" bordersize flex justify-end relative">
+            <div class=" bordersize relative">
+                <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
                 <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                        <div>
-                            <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
-                        </div>
                         <div class="grid grid-cols-3 ps-16">
                             <div class="col-span-3">
                                 <h5 class="mb-6">Graphic Designing</h5>
@@ -273,6 +267,7 @@
                         </div>
                 </div>
             </div>
+
         </div>
 
     </section>
@@ -286,40 +281,32 @@
         </div>
     </section>
 
-    <section class="mb-10 bg-[#F8F8FF]">
+    <section class="mb-10 bg-[#1B3358]">
         <div class="container mx-auto">
             <div>
-                <div class="flex gap-12 pt-2">
-                    <h3 class="text-2xl font-bold">Courses</h3>
-                    <div class="border h-7 border-black"></div>
+                <div class="flex gap-12 pt-2 mb-4">
+                    <h3 class="text-2xl text-white font-bold">Courses</h3>
+                    <div class="border h-7 border-white"></div>
                     <div class="overflow-scroll flex items-end gap-12">
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
-                        <a href="" class="hover:underline hover:text-[#EA6547]">Home</a>
+                        <a href="" class="hover:underline text-[#EA6547]">Programming</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">Quality Assurance</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">Networking</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">Mobile App Development</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">Framework</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">FullStack</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">CyberSecurity</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">Designing</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">Corporate</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">Database</a>
+                        <a href="" class="hover:underline hover:text-[#EA6547] text-white">CivilEngineer</a>
                     </div>
                 </div>
 
+                <p>Programming is the process of designing, writing, testing and maintaining the source code of computer it involves using a programming language to give instruction to a <br> computer to perform specific tasks or to solve problems.</p>
+
                 <!-- Course Card -->
                 <div class="relative flex p-12 space-x-10 overflow-scroll">
-                    <div class="card relative border w-72 h-64 py-4 shadow-lg rounded-md px-4 flex flex-col">
+                    <div class="card relative border w-72 h-64 py-4 shadow-lg rounded-md px-4 flex flex-col bg-[#F8F8FF]">
                         <div class=" w-64 h-auto border mb-4">
                             <img class="w-64 h-auto" src="./images/ReactJS.webp" alt="ReactJs.webp">
                         </div>
