@@ -58,13 +58,13 @@
 
         .bordersize {
             width: 506px;
-            height: 199px;
+            height: 267px;
             padding-left: 6%;
         }
 
         .inside-box {
             width: 434px;
-            height: 199px;
+            height: 267px;
         }
 
         .imgsize {
@@ -72,11 +72,14 @@
             height: 138px;
             position: absolute;
             left: 0px;
-            top: 30px;
+            top: 60px;
         }
         .img-area{
             width: 370px;
             height: 253px;
+        }
+        .line-through-custom{
+            text-decoration: line-through red;
         }
     </style>
 </head>
@@ -107,7 +110,7 @@
             <div class="flex gap-5">
                 <div class="flex gap-4 items-center">
                     <button
-                        class="border px-2 rounded-md text-white text-sm font-semibold hover:bg-[#EA6547] w-32 h-8">Student
+                        class="border px-2 rounded-md text-white text-sm font-semibold hover:bg-[#EA6547] hover:border-none w-32 h-8">Student
                         Portal</button>
                 </div>
                 <div class="border"></div>
@@ -183,8 +186,8 @@
     <!-- Hero section end -->
 
     <!-- Upcoming Classes -->
-    <section class="container mx-auto mb-16">
-        <h1 class="text-3xl font-semibold mb-2 text-center">Upcoming Classes</h1>
+    <section class="container mx-auto mb-14">
+        <h1 class="text-2xl font-bold mb-2 text-center">Upcoming Classes</h1>
         <p class="mb-10 text-center font-light text-sm text-[#212529]">See what's coming in next updates, learn and earn free valued certificates</p>
 
         <!-- Upcoming class Card -->
@@ -193,81 +196,125 @@
             <div class=" bordersize relative">
                 <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
                 <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                        <div class="grid grid-cols-3 ps-16">
-                            <div class="col-span-3">
-                                <h5 class="mb-6">Graphic Designing</h5>
-                            </div>
-                            <div class="col-span-3">
-                                <p class="mb-4">Strating From: </p>
-                            </div>
-                            <div class="border-r-4 border-black h-20">
-                                <p>Duration</p>
-                                <small class="px-2">14 days</small>
-                            </div>
-                            <div class="border-r-4 border-black flex flex-col items-center h-20">
-                                <p>Class Type</p>
-                                <small>online</small>
-                            </div>
-                            <div class="h-20 flex flex-col items-center">
-                                <p>Class Time</p>
-                                <small class="text-sm px-2">8:00pm-9:30pm</small>
-                            </div>
+                    <div class="flex flex-col gap-3"> 
+                        <div>
+                            <h3 class="text-lg font-bold">Graphic Designing</h3>
                         </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days text-[#EA6547]"></i>
+                            <span>
+                                Date-01 March 2024
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-clock text-[#EA6547]"></i>
+                            <span>
+                                Time - 8:00PM-9:30PM
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-location-dot text-[#EA6547]"></i>
+                            <span>
+                                Location - Google Meet
+                            </span>
+                        </div>
+                        <div class="flex gap-2 items-center">
+                            <p>Rs.999/- <span class="line-through-custom text-red-500">Rs.16500</span><span class="text-red-500">/-</span></p>
+                            <div class="border border-black h-4"></div>
+                            <span>
+                                Duration-14 Days
+                            </span>
+                        </div>
+                        <div>
+                            <button class="w-72 border h-10 rounded-lg hover:bg-[#EA6547] hover:text-white hover:border-none">
+                                Start Learning
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class=" bordersize relative">
                 <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
                 <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                        <div class="grid grid-cols-3 ps-16">
-                            <div class="col-span-3">
-                                <h5 class="mb-6">Graphic Designing</h5>
-                            </div>
-                            <div class="col-span-3">
-                                <p class="mb-4">Strating From: </p>
-                            </div>
-                            <div class="border-r-4 border-black h-20">
-                                <p>Duration</p>
-                                <small class="px-2">14 days</small>
-                            </div>
-                            <div class="border-r-4 border-black flex flex-col items-center h-20">
-                                <p>Class Type</p>
-                                <small>online</small>
-                            </div>
-                            <div class="h-20 flex flex-col items-center">
-                                <p>Class Time</p>
-                                <small class="text-sm px-2">8:00pm-9:30pm</small>
-                            </div>
+                    <div class="flex flex-col gap-3"> 
+                        <div>
+                            <h3 class="text-lg font-bold">Graphic Designing</h3>
                         </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days text-[#EA6547]"></i>
+                            <span>
+                                Date-01 March 2024
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-clock text-[#EA6547]"></i>
+                            <span>
+                                Time - 8:00PM-9:30PM
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-location-dot text-[#EA6547]"></i>
+                            <span>
+                                Location - Google Meet
+                            </span>
+                        </div>
+                        <div class="flex gap-2 items-center">
+                            <p>Rs.999/- <span class="line-through-custom text-red-500">Rs.16500</span><span class="text-red-500">/-</span></p>
+                            <div class="border border-black h-4"></div>
+                            <span>
+                                Duration-14 Days
+                            </span>
+                        </div>
+                        <div>
+                            <button class="w-72 border h-10 rounded-lg hover:bg-[#EA6547] hover:text-white hover:border-none">
+                                Start Learning
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class=" bordersize relative">
                 <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
                 <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                        <div class="grid grid-cols-3 ps-16">
-                            <div class="col-span-3">
-                                <h5 class="mb-6">Graphic Designing</h5>
-                            </div>
-                            <div class="col-span-3">
-                                <p class="mb-4">Strating From: </p>
-                            </div>
-                            <div class="border-r-4 border-black h-20">
-                                <p>Duration</p>
-                                <small class="px-2">14 days</small>
-                            </div>
-                            <div class="border-r-4 border-black flex flex-col items-center h-20">
-                                <p>Class Type</p>
-                                <small>online</small>
-                            </div>
-                            <div class="h-20 flex flex-col items-center">
-                                <p>Class Time</p>
-                                <small class="text-sm px-2">8:00pm-9:30pm</small>
-                            </div>
+                    <div class="flex flex-col gap-3"> 
+                        <div>
+                            <h3 class="text-lg font-bold">Graphic Designing</h3>
                         </div>
+                        <div>
+                            <i class="fa-solid fa-calendar-days text-[#EA6547]"></i>
+                            <span>
+                                Date-01 March 2024
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-clock text-[#EA6547]"></i>
+                            <span>
+                                Time - 8:00PM-9:30PM
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-location-dot text-[#EA6547]"></i>
+                            <span>
+                                Location - Google Meet
+                            </span>
+                        </div>
+                        <div class="flex gap-2 items-center">
+                            <p>Rs.999/- <span class="line-through-custom text-red-500">Rs.16500</span><span class="text-red-500">/-</span></p>
+                            <div class="border border-black h-4"></div>
+                            <span>
+                                Duration-14 Days
+                            </span>
+                        </div>
+                        <div>
+                            <button class="w-72 border h-10 rounded-lg hover:bg-[#EA6547] hover:text-white hover:border-none">
+                                Start Learning
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
 
     </section>
@@ -277,7 +324,7 @@
     <!-- Services -->
     <section>
         <div>
-            <h3 class="flex justify-center items-center text-2xl font-bold h-20">Our Services</h3>
+            <h3 class="text-center text-2xl font-bold h-20">Our Services</h3>
         </div>
     </section>
 
