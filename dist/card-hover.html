@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="relative">
+    <div class="relative m-10">
         <div class="card">
-            <img class="image" src="./images/ReactJS.webp" alt="ReactJs.Webp">
-            <div class="content">
-                <h4 class="title">React Js Frontend Framework</h4>
-                <small>Designing</small><br>
-                <small>Rs.999 /- <span class="discount">Rs.16000</span></small>
+            <img class="card-img" src="./images/ReactJS.webp" alt="ReactJs.Webp">
+            <div class="card-body">
+                <h4 class="card-title">React Js Frontend Framework</h4>
+                <small>Designing</small> <br>
+                <small>Rs.999 /- <span class="line-through-custom text-red-600">Rs.16000</span></small>
             </div>
         </div>
-    
-        <article class="article">
-            <h3 class="subtitle">UI/UX Designing</h3>
-            <p class="description">This syllabus is designed to provide participants with
-                a thorough and hands-on introduction to UI/UX design. The course covers fundamental principles, design
-                tools, user research, prototyping, interaction design, and usability testing.</p>
-            <div class="buttons">
-                <button class="syllabus-btn">Syllabus</button>
-                <button class="admission-btn">Admission</button>
+        <article class="card-info">
+            <h3 class="card-sub-title">UI/UX Designing</h3>
+            <p class="card-description">This syllabus is designed to provide participants with
+                a thorough and hands-on introduction to UI/UX design. The course covers fundamental principles,
+                design tools, user research, prototyping, interaction design, and usability testing.</p>
+            <div class="flex gap-2">
+                <button class="card-btn">Syllabus</button>
+                <button class="card-btn card-btn-admission">Admission</button>
             </div>
         </article>
-    </div>    
+    </div>        
 </body>
 </html>

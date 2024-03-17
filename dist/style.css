@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -79,8 +79,73 @@ body{
     outline:none;
     font-weight: 500;
     cursor: pointer;
+} */
+
+/* Custom CSS */
+.card {
+    width: 240px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    position: relative;
 }
 
+.card-img {
+    width: 246px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 15px;
+}
 
+.card-body {
+    padding: 1rem;
+}
 
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-info {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: #F8F8FF;
+    border-radius: 15px;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.card:hover .card-info {
+    display: block; /* Show on hover */
+    right: 0;
+    transition: right 0.5s ease-in-out;
+}
+
+.card-sub-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card-description {
+    font-size: 0.875rem;
+}
+
+.card-btn {
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    border: 2px solid #EA6547;
+    color: #EA6547;
+    cursor: pointer;
+}
+
+.card-btn-admission {
+    background-color: #EA6547;
+    color: #fff;
+    border-color: #EA6547;
+}
 
