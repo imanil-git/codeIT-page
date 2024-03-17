@@ -86,7 +86,7 @@ body{
     width: 240px;
     height: 300px;
     border-radius: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 8px solid #fff;
     position: relative;
 }
@@ -108,7 +108,7 @@ body{
 }
 
 .card-info {
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 0;
     right: -100%;
