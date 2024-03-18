@@ -364,12 +364,44 @@
     <!-- End of Services -->
 
     <!-- Popular Courses -->
-    <section class="bg-[#F8F8FF] py-5 mb-20">
-        <h3 class="text-center text-2xl font-bold h-20">Popular Courses</h3>
-        <p class="text-center text-[#212529]">
-            Discover what's trending. Explore our most popular courses loved by
-            students worldwide.
-        </p>
+    <section class="bg-[#F8F8FF]">
+        <div class="container mx-auto py-5">
+            <h3 class="text-center text-2xl font-bold h-20">Popular Courses</h3>
+            <p class="text-center text-[#212529] mb-6">
+                Discover what's trending. Explore our most popular courses loved by
+                students worldwide.
+            </p>
+            <div class="relative w-60 h-56 shadow-xl rounded-lg border-none bg-[#F8F8FF] block mb-11"
+                onmouseover="hideCourse();" onmouseout="showCourse();">
+                <div id="courseImage" class="w-full h-full transition-opacity duration-1000 ease-in-out">
+                    <img class="rounded-t-lg" src="./images/ReactJS.webp" alt="ReactJs.Webp">
+                    <div class="px-2 py-4">
+                        <h4 class="text-base font-semibold mb-0">React Js Frontend Framework</h4>
+                        <small>Designing</small> <br>
+                        <small>Rs.999 /- <span class="line-through-custom text-[#EA6547]">Rs.16000</span>
+                        </small>
+                    </div>
+                </div>
+
+                <article id="courseArticle"
+                    class="absolute top-0 left-0 opacity-0 w-full h-full rounded-lg text-wrap pt-2 px-2 bg-[#F8F8FF] transition-opacity duration-1000 ease-in-out">
+                    <h3 class="text-base font-semibold ">UI/UX Designing</h3>
+                    <p class="hyphens-manual text-sm font-light mb-2">This syllabus is designed to provide participants
+                        with
+                        a thorough and
+                        hands&shy;on introduction to UI/UX design. The course covers fundamental principles, design
+                        tools, user research, prototyping, interaction design, and usability testing.</p>
+                    <div class="flex gap-2">
+                        <button
+                            class="text-[#EA6547] px-2 rounded-md text-sm w-24 h-6 border-2 border-[#EA6547]">Syllabus</button>
+                        <button class="bg-[#EA6547] text-white px-2 rounded-md text-sm w-24 h-6">Admission</button>
+                    </div>
+                </article>
+            </div>
+            <div class="flex justify-center">
+                <button class="border rounded-lg border-black w-48 h-8 text-center">View All</button>
+            </div>
+        </div>
     </section>
     <!-- End of Popular Courses -->
 
@@ -383,12 +415,15 @@
                     <h4 class="text-center text-white text-xl">Name</h4>
                     <p class="text-center text-white text-sm">B.E <br> Japan</p>
                 </div>
-            <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
-                <button type="button" class="w-3 h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0" ></button>
-                <button type="button" class="w-3 h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="1" ></button>
-                <button type="button" class="w-3 h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="2"></button>
+                <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="1"></button>
+                    <button type="button" class="w-3 h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="2"></button>
+                </div>
             </div>
-        </div>
     </section>
     <!-- End of Feedback -->
 </body>

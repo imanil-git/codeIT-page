@@ -691,6 +691,10 @@ video {
   margin-left: 1rem;
 }
 
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+
 .block {
   display: block;
 }
@@ -841,6 +845,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .min-w-60 {
