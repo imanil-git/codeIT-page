@@ -57,22 +57,23 @@
         } */
 
         .bordersize {
-            width: 506px;
-            height: 267px;
-            padding-left: 6%;
-        }
-
-        .inside-box {
-            width: 434px;
-            height: 267px;
+            width: 440px;
+            height: 451px;
         }
 
         .imgsize {
-            width: 138px;
-            height: 138px;
-            position: absolute;
-            left: 0px;
-            top: 60px;
+            width: 440px;
+            height: 224px;
+        }
+
+        .boxsize {
+            width: 440px;
+            height: 227px;
+        }
+
+        .Btn {
+            width: 392px;
+            height: 41px;
         }
 
         .img-area {
@@ -88,155 +89,137 @@
 
 <body>
     <!-- Top Bar -->
-    <section>
-        <div class="container mx-auto flex justify-between py-2">
-            <div class="flex gap-5">
-                <div>
+    <section class="bg-[#1B3358]">
+        <div class="container m-auto flex justify-between py-2">
+            <div class="flex gap-5 text-white">
+                <div class="flex gap-2 items-center">
                     <i class="fa-brands fa-whatsapp text-2xl"></i>
                     <a href="">9862130505</a>
                 </div>
-                <div>
+                <div class="flex gap-2 items-center">
                     <i class="fa-solid fa-phone text-2xl"></i>
                     <a href="">025-575163</a>
                 </div>
-                <div>
+                <div class="flex gap-2 items-center">
                     <i class="fa-regular fa-envelope text-2xl"></i>
                     <a href="">info@codeit.com.np</a>
                 </div>
             </div>
-            <div class="flex gap-5">
-                <div class="flex gap-4 items-center">
-                    <button
-                        class="border px-2 rounded-md text-white text-sm font-semibold hover:bg-[#EA6547] hover:border-none w-32 h-8">Student
-                        Portal</button>
-                </div>
-                <div class="border"></div>
-                <div class="flex items-center gap-4">
-                    <a href="" title="Facebook"><i class="fa-brands fa-facebook text-white text-2xl"></i></a>
-                    <a href="" title="Instagram"><i class="fa-brands fa-instagram text-white text-2xl"></i></a>
-                    <a href="" title="Youtube"><i class="fa-brands fa-youtube text-white text-2xl"></i></a>
-                </div>
+            <div class="flex gap-4 text-white">
+                <i class="fa-regular fa-bell text-xl"></i>
+                <span>Hurry up before the form closes on 2nd March</span>
             </div>
         </div>
     </section>
     <!-- Top bar end -->
 
     <!-- Navbar -->
-    <section class="bg-[#1B3358] drop-shadow-md sticky top-0 z-10">
-        <div class="container mx-auto flex justify-between items-center h-16 bg-[#1B3358] gap-24">
+    <section class="bg-[#F8F8FF] shadow-md sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center h-16 gap-24">
             <div class="flex gap-4">
                 <div>
-                    <img class="w-52 h-12" src="./images/codeit-logo-removebg-preview.png" alt="codeIT-logo.webp">
+                    <img class="w-52 h-12" src="./images/codeit-logo1.png" alt="codeIT-logo.webp" />
                 </div>
                 <div class="flex items-center">
                     <form action="">
-                        <div class="relative flex items-center text-gray-400 focus-within:text-[#264788] ">
-                            <i class="fa-solid fa-magnifying-glass absolute ml-4 pointer-events-none "></i>
+                        <div class="relative flex items-center gap-4 text-gray-400 focus-within:text-[#264788]">
+                            <i class="fa-solid fa-magnifying-glass absolute ml-4 pointer-events-none"></i>
                             <input name="search" type="text" placeholder="search..."
-                                class="w-96 h-10 pr-3 pl-10 py-2 border-none rounded-md ring-2 focus:ring-[#264788] focus:outline-none">
+                                class="w-96 h-10 pr-3 pl-10 py-2 border-none rounded-md bg-[#E3E6EC] focus:ring-[#264788] focus:outline-none" />
                         </div>
                     </form>
                 </div>
             </div>
             <div class="flex gap-4 items-center">
-                <button class="bg-[#EA6547] text-white px-2 rounded-xl text-sm w-32 h-8">Admission</button>
+                <button
+                    class="border border-black px-2 rounded-xl text-sm font-semibold hover:text-white hover:bg-[#EA6547] hover:border-none w-32 h-8">
+                    Student Portal
+                </button>
+                <button class="bg-[#EA6547] text-white px-2 rounded-xl text-sm w-32 h-8">
+                    Admission
+                </button>
             </div>
-        </div>
         </div>
     </section>
     <!-- Navbar End -->
 
     <!-- Hero Section -->
-    <section class="bg-[#1B3358] mb-5">
-        <div class="container mx-auto h-80 flex justify-between items-center">
+    <section>
+        <div class="bg-[#F8F8FF] container mx-auto h-80 flex justify-between items-center">
             <div>
-                <h1 class="belgrano-regular text-2xl mb-2 text-white">Inspiring Youth Since <br> <small
-                        class="belgrano-regular text-4xl text-white">2017</small></h1>
+                <h1 class="belgrano-regular text-4xl mb-2 text-black">
+                    Welcome to Code It
+                </h1>
                 <i class="fa-solid fa-quote-left text-[#EA6547] text-2xl"></i>
-                <p class="text-sm text-white mb-1">Establish your skills with experts and earn industry recognized <span
-                        class="text-lg text-[#EA6547]">certificates</span></p>
-                <span class="text-4xl text-[#EA6547]">60k+ <small class="text-base text-white">Members</small></span>
-                <div class="pt-4">
-                    <button
-                        class="border hover:bg-[#EA6547] text-white hover:border-none px-2 rounded-md text-sm font-bold shadow-lg w-44 h-8">Learn
-                        more</button>
+                <p class="text-sm text-black mb-1">
+                    Establish your skills with experts and earn industry recognized
+                    <span class="text-lg text-[#EA6547]">certificates</span>
+                </p>
+                <span class="text-4xl text-[#EA6547]">60k+ <small class="text-base text-black">Members</small></span>
+                <div class="pt-14">
+                    <span class="text-black">Connect with us on</span>
+                    <div class="border border-black w-36"></div>
+                    <div class="flex items-center gap-4">
+                        <a href="" title="Facebook"><i class="fa-brands fa-facebook text-black text-2xl"></i></a>
+                        <a href="" title="Instagram"><i class="fa-brands fa-instagram text-black text-2xl"></i></a>
+                        <a href="" title="Youtube"><i class="fa-brands fa-youtube text-black text-2xl"></i></a>
+                        <a href="" title="LinkedIn"><i class="fa-brands fa-linkedin text-black text-2xl"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="grid grid-cols-3 img-area gap-1">
-                <div>
-                    <img class="object-cover rounded-md w-full h-full" src="./images/class.webp" alt="codeit-img.webp">
-                </div>
-                <div class="row-span-2">
-                    <img class="object-cover rounded-md w-full h-full" src="./images/sajal.webp" alt="codeit-img2.webp">
-                </div>
-                <div>
-                    <img class="object-cover rounded-md w-full h-full" src="./images/certification.webp"
-                        alt="codeit-img3.webp">
-                </div>
-                <div>
-                    <img class="object-cover rounded-md w-full h-full" src="./images/class1.webp"
-                        alt="codeit-img3.webp">
-                </div>
-                <div>
-                    <img class="object-cover rounded-md w-full h-full" src="./images/training.webp"
-                        alt="codeit-img3.webp">
-                </div>
+            <div class="img-area">
+                <img src="./images/Group.png" alt="" />
             </div>
         </div>
     </section>
     <!-- Hero section end -->
 
     <!-- Upcoming Classes -->
-    <section class="container mx-auto mb-14">
-        <h1 class="text-2xl font-bold mb-2 text-center">Upcoming Classes</h1>
-        <p class="mb-10 text-center font-light text-sm text-[#212529]">See what's coming in next updates, learn and earn
-            free valued certificates</p>
-
-        <!-- Upcoming class Card -->
-
-        <div class="flex gap-16 overflow-scroll">
-            <div class=" bordersize relative">
-                <img class="border imgsize rounded-full" src="images/PS.png" alt="PS.webp">
-                <div class="border-2 rounded-l-2xl inside-box flex justify-center items-center h-full shadow-lg">
-                    <div class="flex flex-col gap-3">
-                        <div>
-                            <h3 class="text-lg font-bold">Graphic FullStack</h3>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-calendar-days text-[#EA6547]"></i>
-                            <span>
-                                Date-01 March 2024
-                            </span>
-                        </div>
-                        <div>
-                            <i class="fa-regular fa-clock text-[#EA6547]"></i>
-                            <span>
-                                Time - 8:00PM-9:30PM
-                            </span>
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-location-dot text-[#EA6547]"></i>
-                            <span>
-                                Location - Google Meet
-                            </span>
-                        </div>
-                        <div class="flex gap-2 items-center">
-                            <p>Rs.999/- <span class="line-through-custom text-red-500">Rs.16500</span><span
-                                    class="text-red-500">/-</span></p>
-                            <div class="border border-black h-4"></div>
-                            <span>
-                                Duration-14 Days
-                            </span>
-                        </div>
-                        <div>
-                            <button
-                                class="w-72 border h-10 rounded-lg hover:bg-[#EA6547] hover:text-white hover:border-none">
-                                Start Learning
-                            </button>
+    <section class="bg-[#E6EEFD] py-14">
+        <div class="container mx-auto mb-14">
+            <h1 class="text-2xl font-bold mb-2 text-center">Upcoming Classes</h1>
+            <p class="mb-10 text-center text-[#212529]">
+                See what's coming in next updates, learn and earn free valued
+                certificates
+            </p>
+            <!-- Upcoming Classes Card -->
+            <div class="flex overflow-scroll gap-5">
+                <div class="bordersize">
+                    <img class="imgsize" src="./images/image 19.png" alt="PS.webp" />
+                    <div class="boxsize border flex justify-center items-center bg-[#F8F8FF] shadow-lg">
+                        <div class="flex flex-col gap-2">
+                            <div>
+                                <h3 class="text-lg font-bold">Graphic Designing</h3>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-calendar-days text-[#EA6547]"></i>
+                                <span> Date-01 March 2024 </span>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-clock text-[#EA6547]"></i>
+                                <span> Time - 8:00PM-9:30PM </span>
+                                <span> Duration-14 Days </span>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-location-dot text-[#EA6547]"></i>
+                                <span> Location - Google Meet </span>
+                                <span>
+                                    Rs.999/-
+                                    <span class="line-through-custom text-red-500">Rs.16500</span><span
+                                        class="text-red-500">/-</span>
+                                </span>
+                            </div>
+                            <div>
+                                <button
+                                    class="Btn border border-black rounded-lg hover:bg-[#EA6547] hover:text-white hover:border-none">
+                                    Start Learning
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- End of Upcoming Classes Card -->
         </div>
     </section>
     <!-- End of Upcoming Classes -->
@@ -287,7 +270,7 @@
                                     class="bg-[#2F4697] text-white font-serif text-sm rounded-2xl seemore hover:bg-[#EA6547]">Syllabus</button>
                             </div>
                         </div>
-    
+
                         <div class="card relative shadow-xl min-w-60 h-56 border-none overflow-hidden bg-[#F8F8FF]">
                             <div>
                                 <img class="w-auto h-32" src="./images/ReactJS.webp" alt="ReactJs.Webp">
@@ -301,7 +284,7 @@
                                     class="bg-[#2F4697] text-white font-serif text-sm rounded-2xl seemore hover:bg-[#EA6547]">Syllabus</button>
                             </div>
                         </div>
-    
+
                         <div class="card relative shadow-xl min-w-60 h-56 border-none overflow-hidden bg-[#F8F8FF]">
                             <div>
                                 <img class="w-auto h-32" src="./images/ReactJS.webp" alt="ReactJs.Webp">
@@ -315,7 +298,7 @@
                                     class="bg-[#2F4697] text-white font-serif text-sm rounded-2xl seemore hover:bg-[#EA6547]">Syllabus</button>
                             </div>
                         </div>
-    
+
                         <div class="card relative shadow-xl min-w-60 h-56 border-none overflow-hidden bg-[#F8F8FF]">
                             <div>
                                 <img class="w-auto h-32" src="./images/ReactJS.webp" alt="ReactJs.Webp">
@@ -329,7 +312,7 @@
                                     class="bg-[#2F4697] text-white font-serif text-sm rounded-2xl seemore hover:bg-[#EA6547]">Syllabus</button>
                             </div>
                         </div>
-    
+
                         <div class="card relative shadow-xl min-w-60 h-56 border-none overflow-hidden bg-[#F8F8FF]">
                             <div>
                                 <img class="w-auto h-32" src="./images/ReactJS.webp" alt="ReactJs.Webp">
@@ -343,7 +326,7 @@
                                     class="bg-[#2F4697] text-white font-serif text-sm rounded-2xl seemore hover:bg-[#EA6547]">Syllabus</button>
                             </div>
                         </div>
-    
+
                         <div class="card relative shadow-xl min-w-60 h-56 border-none overflow-hidden bg-[#F8F8FF]">
                             <div>
                                 <img class="w-auto h-32" src="./images/ReactJS.webp" alt="ReactJs.Webp">
@@ -359,22 +342,15 @@
                         </div>
                         <!-- Course Card End -->
                     </div>
-                    <button type="button" class="absolute top-0 -left-20 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-                            </svg>
-                            <span class="sr-only">Previous</span>
-                        </span>
+                    <button type="button"
+                        class="absolute border top-1/2 -left-16 w-5 h-5 flex justify-center items-center p-4 rounded-full ring-2 ring-black focus-within:ring-[#637eb4] focus-within:text-[#637eb4] btn1"
+                        onclick="goPrev()">
+                        <i class="fa-solid fa-arrow-left"></i>
                     </button>
-        
-                    <button type="button" class="absolute top-0 -right-20 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-                            </svg>
-                            <span class="sr-only">Next</span>
-                        </span>
+                    <button type="button"
+                        class="absolute border top-1/2 -right-16 w-5 h-5 flex justify-center items-center p-4 rounded-full ring-2 ring-black focus-within:ring-[#637eb4] focus-within:text-[#637eb4] btn2"
+                        onclick="goNext()">
+                        <i class="fa-solid fa-arrow-right"></i>
                     </button>
                 </div>
             </div>
@@ -383,8 +359,8 @@
     <!-- End of Services -->
 
     <!-- Popular Courses -->
-    <section class="bg-[#F8F8FF]">
-        <div class="container mx-auto py-5">
+    <section class="bg-[#E6EEFD]">
+        <div class="container mx-auto py-5 mb-24">
             <h3 class="text-center text-2xl font-bold h-20">Popular Courses</h3>
             <p class="text-center text-[#212529] mb-6">
                 Discover what's trending. Explore our most popular courses loved by
@@ -421,16 +397,33 @@
                 <button class="border rounded-lg border-black w-48 h-8 text-center">View All</button>
             </div>
         </div>
+        <!-- why Code IT -->
+        <div class="container mx-auto h-2/6 pb-32">
+            <div class="grid grid-cols-2 items-center">
+                <div class="flex justify-center">
+                    <img class="w-9/12 h-9/12" src="./images/Youtube.png" alt="">
+                </div>
+                <div>
+                    <h3 class="text-center">Why Code IT ?</h3>
+                    <p>At Code IT, we take pride in being a premier computer institute committed to shaping the future
+                        of tech enthusiasts since our establishment on December 24, 2017. As a dedicated center for
+                        learning and development, we empower individuals with the skills and knowledge essential for
+                        success in the dynamic world of technology.</p>
+                </div>
+            </div>
+        </div>
+        <!-- why Code IT End -->
     </section>
     <!-- End of Popular Courses -->
 
+
     <!-- Feedback -->
-    <section class="bg-[#2E5093] mb-20">
+    <section class="bg-[#1B3358]">
         <div class="relative container mx-auto py-6">
             <h1 class="text-center text-2xl font-bold mb-12 text-white">What our students say about us</h1>
             <div class="flex space-x-11">
                 <div class="w-60 h-80">
-                    <img class="w-full h-60" src="./images/Ellipse 25.png" alt="feedback of code-it.webp">
+                    <img class="w-full h-60" src="./images/Ellipse 26.png" alt="feedback of code-it.webp">
                     <h4 class="text-center text-white text-xl">Name</h4>
                     <p class="text-center text-white text-sm">B.E <br> Japan</p>
                 </div>
@@ -446,39 +439,170 @@
     </section>
     <!-- End of Feedback -->
 
-    <!-- =====  Carousel Effect  ===== -->
+    <section class="bg-[#E6EEFD] pt-24 pb-8">
+        <!-- =====  Admission info  ===== -->
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 items-center">
+                <div>
+                    <h1 class="text-center text-2xl font-bold mb-2 text-[#264788]">
+                        More than 60,000 Student has <br />
+                        joined our courses
+                    </h1>
+                    <p class="text-center mb-3">
+                        We not only offer career-oriented IT training in Nepal as per
+                        industry needs but also assist in <br />
+                        successful job placements for deserving students and professionals
+                    </p>
+                    <div class="flex justify-center">
+                        <button class="bg-[#264788] text-white w-40 h-10 rounded-lg">
+                            Admission
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-full h-full p-10" src="./images/training.webp" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- =====  End of Admission info  ===== -->
+
+        <!-- =====  About Partner  ===== -->
+        <div class="container mx-auto">
+            <h1 class="text-center text-2xl font-bold mb-2">Our Placement Partner</h1>
+            <p class="mb-6 indent-2 text-center">
+                At CodeIt, we take immense pride in our strong network of placement
+                partners, which plays a pivotal role in shaping the success stories of
+                our talented <br />
+                individuals. These strategic collaborations with industry leaders and
+                renowned companies enable us to provide unparalleled placement
+                opportunities for our students.
+            </p>
+            <div class="flex gap-5 justify-between pb-10">
+                <div v-for="i in 4" :key="i">
+                    <img class-="w-64 h-64" src="./images/mantra.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <!-- =====  End of About Partner  ===== -->
+
+        <!-- =====  Photo Gallery  ===== -->
+        <div class="container mx-auto">
+            <h1 class="text-center text-2xl font-bold mb-2">Photo Gallery</h1>
+            <div class="flex gap-5 overflow-scroll">
+                <div class="w-96 h-72">
+                    <img class=" w-full h-60" src="./images/certification.webp" alt="" />
+                    <h4>Image Detail</h4>
+                </div>
+            </div>
+        </div>
+        <!-- =====  End of Photo Gallery  ===== -->
+
+        <!-- =====  Admission info  ===== -->
+        <div class="container mx-auto">
+            <div class="grid grid-cols-2 items-center">
+                <div>
+                    <img class="w-full h-full p-10 object-cover" src="./images/class1.webp" alt="" />
+                </div>
+                <div>
+                    <h1 class="text-center text-2xl font-bold mb-2 text-[#264788]">
+                        Join as Instructor
+                    </h1>
+                    <p class="text-center mb-3">
+                        Do you have a desire to share your knowledge and <br />
+                        empower the next generation of tech enthusiasts?
+                    </p>
+
+                    <p class="text-center mb-3">
+                        Code IT invites dynamic and experienced individuals to <br />
+                        join our team as instructors.
+                    </p>
+                    <div class="flex justify-center">
+                        <button class="bg-[#264788] text-white w-40 h-10 rounded-lg">
+                            Admission
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- =====  End of Admission info  ===== -->
+    </section>
+
+    <!-- Footer -->
+    <div class="bg-[#1B3358] py-10">
+        <div class="container mx-auto text-white">
+            <div class="grid grid-cols-2">
+                <div class="grid grid-cols-3">
+                    <div class=" mr-10">
+                        <img src="./images/codeit-logo-removebg-preview.png" alt="CodeIT-logo.webp" />
+                        <small>Inspiring Youth Since 2017</small>
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <a href="">9862130505</a>
+                        </div>
+                        <div class="flex gap-2 items-center">
+                            <i class="fa-solid fa-phone text-2xl"></i>
+                            <a href="">025-575163</a>
+                        </div>
+                        <div class="flex gap-2 items-center mb-8">
+                            <i class="fa-regular fa-envelope text-2xl"></i>
+                            <a href="">info@codeit.com.np</a>
+                        </div>
+                        <div class=" mb-11">
+                            Reg No: 11757/637/04 PAN No.602345817
+                        </div>
+                        <div class="mb-4">
+                            <span class="text-red-500 font-semibold"> Follow Us On : </span>
+                            <div class="flex gap-2 text-2xl text-white">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="text-xl font-semibold mb-2">Quick Lines</h5>
+                        <div class="flex flex-col">
+                            <a href="">Home</a>
+                            <a href="">Courses</a>
+                            <a href="">Abouts</a>
+                            <a href="">Testimonals</a>
+                            <a href="">Gallery</a>
+                            <a href="">Events</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="text-xl font-semibold mb-2">Account Details</h5>
+                        <span>Bank:Nepal Bank Limited</span> <br>
+                        <span>Acc Name:CODE IT</span> <br>
+                        <span>AC/No:01600106885462000001</span> <br>
+                        <span>Branch:Dharan</span>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <span><i class="fa-solid fa-location-dot"></i>Location - Dharan, Sunsari</span>
+                </div>
+            </div>
+            <div class="border border-white mb-4"></div>
+            <div class="flex justify-between">
+                <p>Copyright <i class="fa-regular fa-copyright text-sm font-extralight"></i> 2024 Code-IT.</p>
+                <a href="">Terms & Conditions|Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+    <!-- End of Footer -->
+
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const prevButton = document.querySelector("[data-carousel-prev]");
-            const nextButton = document.querySelector("[data-carousel-next]");
-            const cardContainer = document.querySelector(".relative > .flex");
+        //  Popular Card JS
+        function hideCourse() {
+            document.getElementById("courseImage").style.opacity = '0';
+            document.getElementById("courseArticle").style.opacity = '1';
+        }
 
-            let currentPosition = 0;
-            const cardWidth = cardContainer.offsetWidth;
-
-            // Function to slide cards to the left
-            function slideLeft() {
-                currentPosition -= cardWidth;
-                if (currentPosition < 0) {
-                    currentPosition = 0;
-                }
-                cardContainer.style.transform = `translateX(-${currentPosition}px)`;
-            }
-
-            // Function to slide cards to the right
-            function slideRight() {
-                const maxPosition = (cardContainer.children.length - 1) * cardWidth;
-                currentPosition += cardWidth;
-                if (currentPosition > maxPosition) {
-                    currentPosition = maxPosition;
-                }
-                cardContainer.style.transform = `translateX(-${currentPosition}px)`;
-            }
-
-            // Add click event listeners to carousel buttons
-            prevButton.addEventListener("click", slideLeft);
-            nextButton.addEventListener("click", slideRight);
-        });
+        function showCourse() {
+            document.getElementById("courseArticle").style.opacity = '0';
+            document.getElementById("courseImage").style.opacity = '1';
+        }
     </script>
 </body>
 

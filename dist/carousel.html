@@ -9,7 +9,7 @@
     <!-- <link rel="stylesheet" href="./css/app.css"> -->
 </head>
 
-<body>
+<body class="bg-red-500 h-screen flex items-center">
     <div class="max-w-2xl mx-auto">
         <div class="relative">
             <div class="overflow-hidden realtive h-56 rounded-lg">
@@ -19,18 +19,15 @@
                         class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2">
                         Primary Slide
                     </span>
-                    <img src="./images/certification.webp" alt=""
-                        class="block top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+                    <img src="./images/certification.webp" alt="" class="w-full h-56 object-fill">
                 </div>
 
                 <div class="duration-700 ease-in-out">
-                    <img src="./images/london-city.jpg" alt=""
-                        class="block top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+                    <img src="./images/london-city.jpg" alt="" class="w-full h-56 object-cover">
                 </div>
 
                 <div class="duration-700 ease-in-out">
-                    <img src="./images/class.webp" alt=""
-                        class="block top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+                    <img src="./images/class.webp" alt="" class="w-full h-56 object-cover">
                 </div>
 
                 <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
@@ -43,6 +40,7 @@
                 </div>
 
                 <button type="button"
+                    id="btn-left"
                     class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                     data-carousel-prev>
                     <span
@@ -57,7 +55,7 @@
                 </button>
 
                 <button type="button"
-                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none btn-right"
                     data-carousel-next>
                     <span
                         class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -76,7 +74,7 @@
 
         </div>
     </div>
-    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    <script></script>
 </body>
 
 </html>
